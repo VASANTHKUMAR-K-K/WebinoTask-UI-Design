@@ -1,38 +1,98 @@
-.App {
-  text-align: center;
+
+
+.App{
+  background-color: #FF007F;
+}
+body {
+  font-family: Arial, sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navbars{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  justify-content: space-between;
+}
+
+.footer {
+  background: #312f30;
+  color: rgb(250, 250, 250);
+}
+
+.buttons {
+  background-color: orangered;
+  width: 150px;
+  border: none;
+  font-weight: 700;
+  border-bottom-style: double;
+  border-bottom: inset
+}
+
+
+.img-fluid {
+  max-width: 80%;
+  height: auto;
+} 
+
+ .NavbarImg{
+  height: 50px;
+  width: 100px;
+}
+
+.phoneImg{
+  max-width: 80%;
+  height: auto;
+} 
+
+#input{
+  justify-content: space-evenly;
+}
+
+
+ .doublebtn{
+  background-color: white;
+ color: #0f0d0d;
+ width: 150px;
+  font-weight: 700;
+  border-bottom: inset;
+  border-radius: 20px;
+  float: left;
+  padding: 6px;
+  border: none;
+  border-bottom-style: double;
+} 
+
+#lunchimg{
+  background-image: url(./assets/lunch.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 5rem;
+  background-size: 100% 100%;
+}
+
+.foot{
+  background-color: pink;
+}
+.hiddendiv>h1{
+  font-weight: 900;
+  color:orangered;
+}
+.hiddendiv>h3{
+  font-weight: 900;
+  color:orangered;
+}
+.sections>h1{
+  font-weight: 800;
+  color: white;
+  text-align: left;
+}
+.sections>p{
+  font-weight: 500;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.foodLogo{
+  height:50px;
+  width: 100px;
+  margin-bottom:10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
